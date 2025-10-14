@@ -1,0 +1,148 @@
+
+> urbe@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v7.1.9  ready in 459 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  Vue DevTools: Open http://localhost:5174/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+7:46:58 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+7:49:53 PM [vite] (client) page reload src/router/index.js
+7:51:22 PM [vite] (client) page reload src/router/index.js
+7:52:34 PM [vite] (client) page reload src/router/index.js
+7:52:57 PM [vite] (client) page reload src/router/index.js
+7:53:51 PM [vite] (client) page reload src/router/index.js
+7:54:41 PM [vite] (client) page reload src/router/index.js
+8:18:02 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:18:02 PM [vite] Internal server error: Invalid end tag.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/radajaaj/Documents/GitH8:18:07 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:18:49 PM [vite] (client) page reload src/router/index.js
+8:18:55 PM [vite] (client) page reload src/router/index.js
+8:18:59 PM [vite] (client) page reload src/router/index.js
+8:19:01 PM [vite] (client) page reload src/router/index.js
+8:19:02 PM [vite] (client) page reload src/router/index.js
+8:19:03 PM [vite] (client) page reload src/router/index.js
+8:19:09 PM [vite] (client) page reload src/router/index.js
+8:31:22 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:28 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:33 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:37 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:39 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:44 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:32:41 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:32:57 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:34:49 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:35:17 PM [vite] (client) page reload src/router/index.js
+8:35:31 PM [vite] (client) page reload src/router/index.js
+8:35:47 PM [vite] (client) page reload src/router/index.js
+8:35:56 PM [vite] (client) page reload src/router/index.js
+nt) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:18:49 PM [vite] (client) page reload src/router/index.js
+8:18:49 PM [vite] (client) Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/router/index.js:1:0
+  1  |  import { createRouter, createWebHistory } from 'vue-router'
+     |  ^
+  2  |  import HomeView from '../views/HomeView.vue'
+  3  |  import LoginView from '../views/LoginView.vue'
+8:18:49 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/router/index.js:1:0
+  1  |  import { createRouter, createWebHistory } from 'vue-router'
+     |  ^
+  2  |  import HomeView from '../views/HomeView.vue'
+  3  |  import LoginView from '../views/LoginView.vue'
+      at TransformPluginContext._formatLog (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:31219:43)
+      at TransformPluginContext.error (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:31216:14)
+      at TransformPluginContext.transform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:29662:10)
+      at async file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-inspect/dist/shared/vite-plugin-inspect.BzUKaD4x.mjs:403:17
+      at async EnvironmentPluginContainer.transform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:31018:14)
+      at async loadAndTransform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:26143:26)
+      at async viteTransformMiddleware (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:27221:20)
+8:18:55 PM [vite] (client) page reload src/router/index.js
+8:18:59 PM [vite] (client) page reload src/router/index.js
+8:19:01 PM [vite] (client) page reload src/router/index.js
+8:19:02 PM [vite] (client) page reload src/router/index.js
+8:19:03 PM [vite] (client) page reload src/router/index.js
+8:19:09 PM [vite] (client) page reload src/router/index.js
+8:31:22 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:28 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:33 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:37 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:39 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:31:44 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:32:41 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:32:57 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:34:49 PM [vite] (client) hmr update /src/views/LandingView.vue, /src/assets/main.css
+8:35:17 PM [vite] (client) page reload src/router/index.js
+8:35:31 PM [vite] (client) page reload src/router/index.js
+8:35:47 PM [vite] (client) page reload src/router/index.js
+8:35:48 PM [vite] (client) Pre-transform error: At least one <template> or <script> is required in a single file component. /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+  Plugin: vite:vue
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+8:35:56 PM [vite] (client) page reload src/router/index.js
+8:35:57 PM [vite] (client) Pre-transform error: At least one <template> or <script> is required in a single file component. /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+  Plugin: vite:vue
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+8:35:57 PM [vite] Internal server error: At least one <template> or <script> is required in a single file component. /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+  Plugin: vite:vue
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+      at Object.parse$1 [as parse] (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1871:7)
+      at createDescriptor (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:79:42)
+      at transformMain (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:1633:33)
+      at TransformPluginContext.handler (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:2045:27)
+      at file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-inspect/dist/shared/vite-plugin-inspect.BzUKaD4x.mjs:403:26
+      at hook.handler (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-inspect/dist/shared/vite-plugin-inspect.BzUKaD4x.mjs:376:14)
+      at EnvironmentPluginContainer.transform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:31018:51)
+      at async loadAndTransform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:26143:26)
+8:43:34 PM [vite] (client) hmr update /src/assets/main.css
+8:43:34 PM [vite] (client) Pre-transform error: At least one <template> or <script> is required in a single file component. /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+  Plugin: vite:vue
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+8:43:34 PM [vite] Internal server error: At least one <template> or <script> is required in a single file component. /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+  Plugin: vite:vue
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+      at Object.parse$1 [as parse] (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1871:7)
+      at createDescriptor (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:79:42)
+      at transformMain (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:1633:33)
+      at TransformPluginContext.handler (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vitejs/plugin-vue/dist/index.js:2045:27)
+      at file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-inspect/dist/shared/vite-plugin-inspect.BzUKaD4x.mjs:403:26
+      at hook.handler (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-inspect/dist/shared/vite-plugin-inspect.BzUKaD4x.mjs:376:14)
+      at EnvironmentPluginContainer.transform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:31018:51)
+      at async loadAndTransform (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite/dist/node/chunks/dep-Chhhsdoe.js:26143:26)
+8:44:22 PM [vite] (client) hmr update /src/assets/main.css
+8:49:33 PM [vite] (client) hmr update /src/views/LocationView.vue, /src/assets/main.css
+8:49:33 PM [vite] Internal server error: Element is missing end tag.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+      at createCompilerError (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2991:5)
+      at Object.onclosetag (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2350:13)
+      at Tokenizer.stateInClosingTagName (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3030:13)
+      at parse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at result (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-vue-inspector/dist/index.mjs:29:21)
+      at new Promise (<anonymous>)
+      at compileSFCTemplate (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-vue-inspector/dist/index.mjs:26:24)
+8:52:47 PM [vite] (client) Pre-transform error: Element is missing end tag.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+8:52:47 PM [vite] Internal server error: Element is missing end tag.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/src/views/LocationView.vue
+      at createCompilerError (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2991:5)
+      at Object.onclosetag (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2350:13)
+      at Tokenizer.stateInClosingTagName (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3030:13)
+      at parse (/home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at result (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-vue-inspector/dist/index.mjs:29:21)
+      at new Promise (<anonymous>)
+      at compileSFCTemplate (file:///home/radajaaj/Documents/GitHub/Vue_Laravel_RideShare/frontend/node_modules/vite-plugin-vue-inspector/dist/index.mjs:26:24)

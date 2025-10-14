@@ -1,0 +1,28 @@
+
+   INFO  Tailing application logs.                        Press Ctrl+C to exit  
+                                               Use -v|-vv to show more details  
+
+   JsonException 
+
+  Syntax error
+
+  at vendor/laravel/pail/src/ValueObjects/MessageLogged.php:30
+     26▕      */
+     27▕     public static function fromJson(string $json): static
+     28▕     {
+     29▕         /** @var array{message: string, context: array{__pail: array{origin: array{trace: array<int, array{file: string, line: int}>|null, type: string, queue: string, job: string, command: string, method: string, path: string, auth_id: ?string, auth_email: ?string}}, exception: array{class: string, file: string}}, level_name: string, datetime: string} $array */
+  ➜  30▕         $array = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
+     31▕ 
+     32▕         [
+     33▕             'message' => $message,
+     34▕             'datetime' => $datetime,
+
+      [2m+2 vendor frames [22m
+
+  3   [internal]:0
+      Laravel\Pail\ProcessFactory::{closure:{closure:Laravel\Pail\ProcessFactory::run():26}:42}()
+      [2m+24 vendor frames [22m
+
+  28  artisan:16
+      Illuminate\Foundation\Application::handleCommand()
+

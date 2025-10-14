@@ -58,6 +58,7 @@
 
 <script setup>
     import { onMounted, reactive, ref } from 'vue';
+    import { useRouter } from 'vue-router';
     import axios from 'axios';
 
     const router = useRouter();
@@ -65,6 +66,8 @@
     const credentials = reactive({
         phone: null
     });
+    // include login_code here so it's reactive from the start
+    credentials.login_code = null;
 
 
     const waitingOnVerification = ref(false);
@@ -72,7 +75,7 @@
     onMounted(() => {                           //Verifica se já tem um auth token armazenado (user já logou)
         if (localStorage.getItem('token')){
             router.push({
-                name: 'index'                   // Redireciona ele pro coiso de users logados
+                name: 'landing'                   // Redireciona ele pro coiso de users logados
             })
         }
     })
@@ -84,6 +87,7 @@
         phone: null,
         general: null
     });
+    errors.login_code = null;
 
     // Debug helpers to inspect what we send and what the server replies
     const payloadSent = ref(null);
@@ -107,7 +111,7 @@
             // Debug: store the payload we are about to send
             payloadSent.value = payload;
 
-            const response = await axios.post('http://localhost:8000/api/login', payload);
+            const response = await axios.post('/api/login', payload);
             console.log(response.data);
             serverResponse.value = response.data;
             // handle success (redirect, store token, etc.)
@@ -142,7 +146,7 @@
         }
 
         try {
-            const response = await axios.post('http://localhost:8000/api/verify', {
+            const response = await axios.post('/api/verify', {
                 phone: e164,
                 login_code: credentials.login_code
             });
@@ -150,8 +154,8 @@
             serverResponse.value = response.data;
             // handle success (redirect, store token, etc.)
             localStorage.setItem('token', response.data);
-            router.push({
-                name: 'index'
+            router.push({       // Redireciona para a pagina "landing"
+                name: 'landing'
             })
 
 

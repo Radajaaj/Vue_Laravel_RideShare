@@ -7,6 +7,7 @@ The passengers will define the starting point and the destiny, and the drivers w
 After that, the run starts appening. The passenger can cancel it, and the driver can mark it as completed.
 
 How to use (backend and API's):
+    If port 80 is in use, run sudo systemctl stop apache2
     Run "sudo php artisan serve --port=80" on the backend folder
     Use the login route: "http POST localhost/api/login phone=+YourPhoneHere"
         it should send an verification code to your phone.
@@ -22,3 +23,9 @@ How to use (backend and API's):
 
 Setting up Reverb Websockets:
     Run "php artisan reverb:start" or "php artisan reverb:start --host=127.0.0.1 --port=8080" (you can chose the host and port)
+
+
+Scripts to run everything at once:
+./scripts/dev.sh        (run)
+./scripts/status.sh     (show logs)
+./scripts/stop.sh       (stop)
